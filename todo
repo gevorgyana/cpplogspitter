@@ -6,4 +6,4 @@ chores
 
 feature
 - trace ctors when they are defined (may need to rethink the logic);
-- support generic text to be injected (example is __FUNCSIG__ in msvc and __FUNCTION__ in gcc, or sth similar)
+- support generic text injection (example is __FUNCSIG__ in msvc and __FUNCTION__ in gcc, or sth similar)
