@@ -9,3 +9,13 @@ chores
 feature
 - trace ctors when they are defined (may need to rethink the logic);
 - support generic text injection (example is __FUNCSIG__ in msvc and __FUNCTION__ in gcc, or sth similar)
+
++ add support for structs, classes, enums;
++ rethink to cover the following case:
+static type_ = {blabla}
++ interactive mode - choose which file (s) to go to,
+  and which functions to cover, then do it;
+  may need a different approach like 
+  maintaining internal map of covered/uncovered identifiers,
+  also may need identifiers themselves
+  (maybe makes sense to use clang tools for this one)
